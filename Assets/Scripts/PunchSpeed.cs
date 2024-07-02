@@ -9,7 +9,7 @@ public class PunchSpeed : MonoBehaviour
 {
     [Tooltip("Actions to check")]
     public InputAction action = null;
-
+    public SettingSO settings;
     public TextMeshProUGUI speedText;
 
     [Tooltip("Rigidbody")]
